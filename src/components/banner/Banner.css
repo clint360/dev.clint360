@@ -1,0 +1,26 @@
+.banner {
+    display: flex;
+}
+
+.leftbanner {
+    width: 65%;
+}
+
+.rightbanner {
+    margin-top: -100px;
+    background: rgba(48, 44, 164, 0.231);
+    border-radius: 50%;
+    border-bottom: 2px solid rgb(133, 15, 96);
+}
+
+.rightbanner img{
+    border-bottom-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background: rgba(0, 0, 0, 0.322);
+    border-radius: 50%;
+    overflow: none;
+}
+
+.textbl {
+    color: rgba(145, 7, 145)
+}
