@@ -189,9 +189,9 @@ const testimonials = [
   },
   {
     testimonial:
-      "Clint has been the most 'open-to-learn-new-things' student we have had since our school started",
-    name: "Ngani Faith",
-    designation: "Magaging Director",
+      "Clint has been the most 'open-to-learn-new-things' student I have had in all my Algorithms and data structures classes",
+    name: "Carlyle Ankeambom",
+    designation: "Tutor",
     company: "Rebase Academy",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYI05R8njC7PiGxxK_l04fxSBAVOV68Op0S-HaNH48kFJ480Y-V7ouPY7jC6RINKdxVNE&usqp=CAU",
   },
