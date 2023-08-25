@@ -34,14 +34,25 @@
     }
 
 
+    .media {
+    }
+    
     .landingView {
-    height: 35vh
+    height: auto
+}
+
+ .headerh2text {
+    height: 3rem !important;
+}
+
+.bigtext {
+    zoom: 80%;
 }
 
     .leftbanner {
     width: 100%;
-    zoom: 80%;
-    height: 50vh;
+    zoom: 90%;
+    padding-bottom: 100px;
 }
 
     .landingView {

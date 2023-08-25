@@ -1,9 +1,10 @@
 import React from 'react'
 import { FaInstagram, FaTwitter, FaMedium, FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import './Banner.css'
 const Media = () => {
   return (
-    <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+    <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between media">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me on
