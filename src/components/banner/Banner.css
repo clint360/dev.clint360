@@ -40,6 +40,8 @@
 
     .leftbanner {
     width: 100%;
+    zoom: 80%;
+    height: 50vh;
 }
 
     .landingView {
