@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
+import './Banner.css'
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -12,7 +13,7 @@ const LeftBanner = () => {
     });
   return (
     <div className="leftbanner">
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 landingView">
         <h4 className=" text-lg font-normal">WELCOME TO MY DEV PORTFOLIO SITE</h4>
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Clint Animbom</span>

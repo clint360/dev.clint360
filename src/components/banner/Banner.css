@@ -8,19 +8,53 @@
 
 .rightbanner {
     margin-top: -100px;
-    background: rgba(48, 44, 164, 0.231);
     border-radius: 50%;
-    border-bottom: 2px solid rgb(133, 15, 96);
+    border-bottom: 2px solid rgba(133, 15, 96, 0);
 }
 
 .rightbanner img{
     border-bottom-left-radius: 40px;
     border-bottom-left-radius: 40px;
-    background: rgba(0, 0, 0, 0.322);
+    background: rgba(0, 0, 0, 0);
     border-radius: 50%;
     overflow: none;
+    border-bottom: 4px solid rgb(184, 3, 127);
 }
 
 .textbl {
-    color: rgba(145, 7, 145)
+    color: rgb(162, 5, 162);
+    height: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .landingView {
+    height: 35vh
+}
+
+    .leftbanner {
+    width: 100%;
+}
+
+    .landingView {
+        zoom: 80%
+    }
+
+    .headerh2text {
+        font-size: 20px;
+    }
+
+    .rightbanner {
+    margin-top: -100px;
+    background: transparent;
+    border-radius: 50%;
+    border-bottom: 2px solid rgb(133, 15, 96);
+}
+
 }

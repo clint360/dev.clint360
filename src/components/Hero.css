@@ -6,3 +6,9 @@
     min-height: 100%;
     height: 1000px;
   }
+
+  @media screen and (max-width: 768px) {
+    .compcanvas {
+      display: none;
+    }
+}

@@ -1,6 +1,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import './css.css'
 
 import CanvasLoader from "../Loader";
 
@@ -54,6 +55,8 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
+    <div className="compwrap">
+    <div style={{ width: "80vw", height: "80vh" }} className="compcanvas">
     <Canvas
       frameloop='demand'
       shadows
@@ -72,6 +75,8 @@ const ComputersCanvas = () => {
 
       <Preload all />
     </Canvas>
+    </div>
+    </div>
   );
 };
 
