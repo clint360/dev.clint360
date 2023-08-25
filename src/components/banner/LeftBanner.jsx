@@ -15,10 +15,10 @@ const LeftBanner = () => {
     <div className="leftbanner">
       <div className="flex flex-col gap-5 landingView">
         <h4 className=" text-lg font-normal">WELCOME TO MY DEV PORTFOLIO SITE</h4>
-        <h1 className="text-6xl font-bold text-white bigtext" style={{fontSize: "3rem"}}>
+        <h1 className="text-6xl font-bold text-white bigtext" style={{fontSize: "3.2rem"}}>
           Hi, I'm <span className="text-designColor capitalize">Clint Animbom</span>
         </h1>
-        <h2 className="font-bold headerh2text" style={{fontSize: "2rem"}}>
+        <h2 style={{fontSize: "2rem"}}>
           a <span className='textbl'>{text}</span>
           <Cursor
             cursorBlinking="false"
