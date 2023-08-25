@@ -45,6 +45,7 @@
  .headerh2text {
     height: 6rem !important;
     overflow: hidden;
+    font-size: 40px;
 }
 
 .bigtext {
