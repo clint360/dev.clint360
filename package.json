@@ -1,11 +1,11 @@
 {
-  "name": "3dfolio",
+  "name": "clint360.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --legacy-peer-deps",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,7 +15,7 @@
     "framer-motion": "^9.0.7",
     "maath": "^0.5.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.0.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.8.1",
     "react-simple-typewriter": "^5.0.1",

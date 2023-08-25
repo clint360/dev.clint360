@@ -4,7 +4,11 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaGithub } from "rea
 const Last = () => {
    
     const style = {
-        textAlign: "center"
+        display: "flex",
+        justifyContent: "center",
+        flexDirection: "column",
+        alignItems: "center",
+        paddingBottom: "20px",
     }
 
     const links = {
@@ -14,7 +18,9 @@ const Last = () => {
         fontSize: "25px",
         gap: '3px',
         padding: "0 50px",
-        marginBottom: "40px"
+        marginBottom: "20px",
+        width: "60%",
+        maxWidth: "500px",
     }
 
   return (
