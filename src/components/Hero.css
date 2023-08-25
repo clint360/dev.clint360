@@ -11,9 +11,10 @@
     .compcanvas {
       display: none;
     }
+
+    .mainsec {
+      height: auto !important;
+      padding-bottom: 500px;
+    }
 }
 
-.mainsec {
-  height: auto !important;
-  padding-bottom: 200px;
-}
