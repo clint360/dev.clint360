@@ -18,7 +18,7 @@ const LeftBanner = () => {
         <h1 className="text-6xl font-bold text-white bigtext" style={{fontSize: "3.2rem"}}>
           Hi, I'm <span className="text-designColor capitalize">Clint Animbom</span>
         </h1>
-        <h2 style={{fontSize: "2rem"}}>
+        <h2 style={{fontSize: "1.7rem"}}>
           a <span className='textbl'>{text}</span>
           <Cursor
             cursorBlinking="false"
