@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerImg  from "src/components/banner/WhatsApp_Image_2023-10-17_at_12.10.33_PM-removebg-preview.png";
+import bannerImg  from "./WhatsApp_Image_2023-10-17_at_12.10.33_PM-removebg-preview.png";
 
 const RightBanner = () => {
   return (
